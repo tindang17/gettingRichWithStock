@@ -1,7 +1,8 @@
-import React from 'react';
+import * as React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+class Time extends React.Component<Props, State> {}
 function App() {
   return (
     <div className="App">
